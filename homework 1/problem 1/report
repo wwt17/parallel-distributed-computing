@@ -1,5 +1,8 @@
 本机4核64位。对于每个线程数，我每次运行3次，取最优结果。实际运行时波动很大。
 
+matrix_a: 1000 x 1000
+matrix_b: 1000 x 1000
+
 num_threads = 1
 real	0m5.896s
 user	0m5.852s
@@ -39,4 +42,30 @@ num_threads = 8
 real	0m3.322s
 user	0m10.528s
 sys	0m0.020s
+
+
+num_threads = 4
+matrix_a: 500 x 250
+matrix_b: 250 x 500
+real	0m0.342s
+user	0m0.772s
+sys	0m0.012s
+
+matrix_a: 500 x 500
+matrix_b: 500 x 500
+real	0m0.525s
+user	0m1.376s
+sys	0m0.004s
+
+matrix_a: 500 x 750
+matrix_b: 750 x 500
+real	0m0.738s
+user	0m2.016s
+sys	0m0.012s
+
+matrix_a: 500 x 1000
+matrix_b: 1000 x 500
+real	0m1.135s
+user	0m2.920s
+sys	0m0.008s
 

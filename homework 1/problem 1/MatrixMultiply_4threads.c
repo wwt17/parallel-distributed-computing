@@ -91,7 +91,7 @@ void matrix_multiply (float **a, float **b, float **c,
    int i, j, k;
    float tmp;
 
-#pragma omp parallel for private(i,j,k,tmp) num_threads(8)
+#pragma omp parallel for private(i,j,k,tmp)
    for (i = 0; i < arows; i++)
       for (j = 0; j < bcols; j++) {
 	  tmp = 0.0;
