@@ -1,0 +1,52 @@
+n = 100000000
+no mp:
+real	0m1.684s
+user	0m1.672s
+sys	0m0.008s
+
+num_threads = 2
+real	0m1.573s
+user	0m2.584s
+sys	0m0.004s
+
+num_threads = 3
+real	0m1.423s
+user	0m3.140s
+sys	0m0.004s
+
+num_threads = 4
+real	0m1.406s
+user	0m3.956s
+sys	0m0.008s
+
+num_threads = 4
+n = 100000000
+real	0m1.406s
+user	0m3.956s
+sys	0m0.008s
+
+n = 300000000
+real	0m4.506s
+user	0m12.784s
+sys	0m0.016s
+
+n = 500000000
+real	0m7.800s
+user	0m22.572s
+sys	0m0.028s
+
+n = 700000000
+real	0m11.289s
+user	0m32.804s
+sys	0m0.096s
+
+n = 900000000
+real	0m14.467s
+user	0m41.948s
+sys	0m0.228s
+
+n = 1000000000
+real	0m16.183s
+user	0m47.232s
+sys	0m0.224s
+
