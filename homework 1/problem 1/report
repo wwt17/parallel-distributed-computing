@@ -1,0 +1,42 @@
+本机4核64位。对于每个线程数，我每次运行3次，取最优结果。实际运行时波动很大。
+
+num_threads = 1
+real	0m5.896s
+user	0m5.852s
+sys	0m0.040s
+
+num_threads = 2
+real	0m3.549s
+user	0m6.248s
+sys	0m0.020s
+
+num_threads = 3
+real	0m3.553s
+user	0m8.308s
+sys	0m0.012s
+
+num_threads = 4
+real	0m3.202s
+user	0m10.044s
+sys	0m0.040s
+
+num_threads = 5
+real	0m3.308s
+user	0m10.044s
+sys	0m0.020s
+
+num_threads = 6
+real	0m3.342s
+user	0m10.552s
+sys	0m0.008s
+
+num_threads = 7
+real	0m3.350s
+user	0m10.500s
+sys	0m0.004s
+
+num_threads = 8
+real	0m3.322s
+user	0m10.528s
+sys	0m0.020s
+
