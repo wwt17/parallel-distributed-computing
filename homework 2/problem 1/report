@@ -1,0 +1,4 @@
+Length: 1  Comm time: 14.588726 us  Comm Bandwidth: 0.548369 Mb/s
+Length: 100  Comm time: 15.832794 us  Comm Bandwidth: 50.528036 Mb/s
+Length: 10000  Comm time: 34.449900 us  Comm Bandwidth: 2322.212837 Mb/s
+Length: 1000000  Comm time: 60.946390 us  Comm Bandwidth: 131262.901708 Mb/s
